@@ -1,0 +1,46 @@
+.navbar {
+  width: 100vw;
+  height: 50px;
+  padding: 0 1rem !important;
+  border-bottom: 01px solid black;
+  background-color: white !important;
+}
+
+/* for front-end playground button */
+.redirect-button {
+  background-color: #2637ed;
+  color: #ffffff !important;
+  border: none;
+  border-radius: 50px;
+  padding: 4px 8px !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.redirect-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: -1;
+  transition: transform 0.3s ease;
+  transform-origin: right;
+}
+
+.redirect-button:hover::before {
+  transform: scaleX(0);
+}
+
+.redirect-button:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,37 @@
+.editor__header {
+  height: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0.8rem;
+  background-color: white;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.editor__header--right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.editor__header--right--options {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.editor__header--setting:hover,
+.editor__header--reset:hover {
+  cursor: pointer;
+}
+
+.editor__header--setting,
+.editor__header--reset {
+  padding: 0.5rem 0.5rem;
+  border: none;
+  background-color: white;
+  font-size: 1.1rem;
+}

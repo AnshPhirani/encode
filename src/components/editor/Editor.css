@@ -1,0 +1,22 @@
+.editor {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* 
+.monaco-editor {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.overflow-guard {
+  width: 100% !important;
+}
+
+.editor-scrollable {
+  width: calc(100% - 86px) !important;
+} 
+*/
