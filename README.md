@@ -29,4 +29,4 @@ Explore Encode in action by visiting the [Live Demo](https://anshphirani.github.
 
 ## Screenshots
 
-
+<img src = "screencapture-anshphirani-github-io-encode-2023-07-24-00_58_03.png" />
